@@ -28,7 +28,7 @@ Set the path to the dataset in the ```GA_optimization.ipynb``` file.
 
 Load the weights of the trained forward model with: ```forward_model.load_state_dict(torch.load(PATH_TO_SAVED_WEIGHTS))``` 
 
-To obtain the first set of optimzied lattices, run the optimization file with:
+To obtain the first set of optimized lattices, run the optimization file with:
 ```
 jupyter notebook GA_optimization.ipynb
 ```
